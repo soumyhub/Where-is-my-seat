@@ -1,0 +1,2112 @@
+{
+ "meta": {
+  "simulated": true,
+  "version": "2026.10-demo1",
+  "last_updated": "2026-10-30",
+  "source": "Synthetic demo timetable (build_simulated_trains.py)",
+  "disclaimer": "SIMULATED. Train numbers (SIM-xxxx), names, times, days and distances are invented for algorithm testing. They are not Indian Railways services or an official timetable."
+ },
+ "trains": [
+  {
+   "number": "SIM-1101",
+   "name": "Marigold Mail",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NDLS",
+     "km": 0,
+     "day": 1,
+     "dep": "06:00"
+    },
+    {
+     "code": "DEC",
+     "km": 14,
+     "arr": "06:22",
+     "day": 1,
+     "dep": "06:24"
+    },
+    {
+     "code": "GGN",
+     "km": 32,
+     "arr": "06:48",
+     "day": 1,
+     "dep": "06:50"
+    },
+    {
+     "code": "RE",
+     "km": 83,
+     "arr": "07:38",
+     "day": 1,
+     "dep": "07:40"
+    },
+    {
+     "code": "AWR",
+     "km": 158,
+     "arr": "08:40",
+     "day": 1,
+     "dep": "08:43"
+    },
+    {
+     "code": "BKI",
+     "km": 219,
+     "arr": "09:40",
+     "day": 1,
+     "dep": "09:42"
+    },
+    {
+     "code": "DO",
+     "km": 256,
+     "arr": "10:08",
+     "day": 1,
+     "dep": "10:10"
+    },
+    {
+     "code": "GADJ",
+     "km": 299,
+     "arr": "10:52",
+     "day": 1,
+     "dep": "10:54"
+    },
+    {
+     "code": "JP",
+     "km": 308,
+     "arr": "11:10",
+     "day": 1,
+     "dep": "11:20"
+    },
+    {
+     "code": "FL",
+     "km": 362,
+     "arr": "12:05",
+     "day": 1,
+     "dep": "12:07"
+    },
+    {
+     "code": "KSG",
+     "km": 412,
+     "arr": "12:52",
+     "day": 1,
+     "dep": "12:54"
+    },
+    {
+     "code": "AII",
+     "km": 443,
+     "arr": "13:35",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1102",
+   "name": "Marigold Mail",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AII",
+     "km": 0,
+     "day": 1,
+     "dep": "14:30"
+    },
+    {
+     "code": "KSG",
+     "km": 31,
+     "arr": "15:08",
+     "day": 1,
+     "dep": "15:10"
+    },
+    {
+     "code": "FL",
+     "km": 81,
+     "arr": "15:55",
+     "day": 1,
+     "dep": "15:57"
+    },
+    {
+     "code": "JP",
+     "km": 135,
+     "arr": "16:45",
+     "day": 1,
+     "dep": "16:55"
+    },
+    {
+     "code": "GADJ",
+     "km": 144,
+     "arr": "17:08",
+     "day": 1,
+     "dep": "17:10"
+    },
+    {
+     "code": "DO",
+     "km": 187,
+     "arr": "17:52",
+     "day": 1,
+     "dep": "17:54"
+    },
+    {
+     "code": "BKI",
+     "km": 224,
+     "arr": "18:20",
+     "day": 1,
+     "dep": "18:22"
+    },
+    {
+     "code": "AWR",
+     "km": 285,
+     "arr": "19:20",
+     "day": 1,
+     "dep": "19:23"
+    },
+    {
+     "code": "RE",
+     "km": 360,
+     "arr": "20:25",
+     "day": 1,
+     "dep": "20:27"
+    },
+    {
+     "code": "GGN",
+     "km": 411,
+     "arr": "21:15",
+     "day": 1,
+     "dep": "21:17"
+    },
+    {
+     "code": "DEC",
+     "km": 429,
+     "arr": "21:40",
+     "day": 1,
+     "dep": "21:42"
+    },
+    {
+     "code": "NDLS",
+     "km": 443,
+     "arr": "22:10",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1203",
+   "name": "Sandstone Superfast",
+   "category": "Superfast",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "DEE",
+     "km": 0,
+     "day": 1,
+     "dep": "13:20"
+    },
+    {
+     "code": "DEC",
+     "km": 10,
+     "arr": "13:36",
+     "day": 1,
+     "dep": "13:38"
+    },
+    {
+     "code": "GGN",
+     "km": 28,
+     "arr": "14:02",
+     "day": 1,
+     "dep": "14:04"
+    },
+    {
+     "code": "RE",
+     "km": 79,
+     "arr": "14:50",
+     "day": 1,
+     "dep": "14:52"
+    },
+    {
+     "code": "AWR",
+     "km": 154,
+     "arr": "15:50",
+     "day": 1,
+     "dep": "15:53"
+    },
+    {
+     "code": "BKI",
+     "km": 215,
+     "arr": "16:48",
+     "day": 1,
+     "dep": "16:50"
+    },
+    {
+     "code": "GADJ",
+     "km": 295,
+     "arr": "18:02",
+     "day": 1,
+     "dep": "18:04"
+    },
+    {
+     "code": "JP",
+     "km": 304,
+     "arr": "18:20",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1204",
+   "name": "Sandstone Superfast",
+   "category": "Superfast",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "JP",
+     "km": 0,
+     "day": 1,
+     "dep": "05:45"
+    },
+    {
+     "code": "GADJ",
+     "km": 9,
+     "arr": "05:58",
+     "day": 1,
+     "dep": "06:00"
+    },
+    {
+     "code": "BKI",
+     "km": 89,
+     "arr": "07:08",
+     "day": 1,
+     "dep": "07:10"
+    },
+    {
+     "code": "AWR",
+     "km": 150,
+     "arr": "08:05",
+     "day": 1,
+     "dep": "08:08"
+    },
+    {
+     "code": "RE",
+     "km": 225,
+     "arr": "09:05",
+     "day": 1,
+     "dep": "09:07"
+    },
+    {
+     "code": "GGN",
+     "km": 276,
+     "arr": "09:52",
+     "day": 1,
+     "dep": "09:54"
+    },
+    {
+     "code": "DEC",
+     "km": 294,
+     "arr": "10:18",
+     "day": 1,
+     "dep": "10:20"
+    },
+    {
+     "code": "DEE",
+     "km": 304,
+     "arr": "10:40",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1305",
+   "name": "Peacock Intercity",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NDLS",
+     "km": 0,
+     "day": 1,
+     "dep": "15:10"
+    },
+    {
+     "code": "GGN",
+     "km": 32,
+     "arr": "15:52",
+     "day": 1,
+     "dep": "15:54"
+    },
+    {
+     "code": "RE",
+     "km": 83,
+     "arr": "16:40",
+     "day": 1,
+     "dep": "16:42"
+    },
+    {
+     "code": "AWR",
+     "km": 158,
+     "arr": "17:40",
+     "day": 1,
+     "dep": "17:43"
+    },
+    {
+     "code": "BKI",
+     "km": 219,
+     "arr": "18:36",
+     "day": 1,
+     "dep": "18:38"
+    },
+    {
+     "code": "DO",
+     "km": 256,
+     "arr": "19:02",
+     "day": 1,
+     "dep": "19:04"
+    },
+    {
+     "code": "GADJ",
+     "km": 299,
+     "arr": "19:45",
+     "day": 1,
+     "dep": "19:47"
+    },
+    {
+     "code": "JP",
+     "km": 308,
+     "arr": "20:00",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1306",
+   "name": "Peacock Intercity",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": [
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+   ],
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "JP",
+     "km": 0,
+     "day": 1,
+     "dep": "06:30"
+    },
+    {
+     "code": "GADJ",
+     "km": 9,
+     "arr": "06:42",
+     "day": 1,
+     "dep": "06:44"
+    },
+    {
+     "code": "DO",
+     "km": 52,
+     "arr": "07:25",
+     "day": 1,
+     "dep": "07:27"
+    },
+    {
+     "code": "BKI",
+     "km": 89,
+     "arr": "07:52",
+     "day": 1,
+     "dep": "07:54"
+    },
+    {
+     "code": "AWR",
+     "km": 150,
+     "arr": "08:48",
+     "day": 1,
+     "dep": "08:51"
+    },
+    {
+     "code": "RE",
+     "km": 225,
+     "arr": "09:50",
+     "day": 1,
+     "dep": "09:52"
+    },
+    {
+     "code": "GGN",
+     "km": 276,
+     "arr": "10:38",
+     "day": 1,
+     "dep": "10:40"
+    },
+    {
+     "code": "NDLS",
+     "km": 308,
+     "arr": "11:25",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1407",
+   "name": "Night Kite Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "1A",
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "DLI",
+     "km": 0,
+     "day": 1,
+     "dep": "22:40"
+    },
+    {
+     "code": "DEE",
+     "km": 5,
+     "arr": "22:52",
+     "day": 1,
+     "dep": "22:55"
+    },
+    {
+     "code": "DEC",
+     "km": 15,
+     "arr": "23:10",
+     "day": 1,
+     "dep": "23:12"
+    },
+    {
+     "code": "GGN",
+     "km": 33,
+     "arr": "23:38",
+     "day": 1,
+     "dep": "23:40"
+    },
+    {
+     "code": "RE",
+     "km": 84,
+     "arr": "00:28",
+     "day": 2,
+     "dep": "00:30"
+    },
+    {
+     "code": "AWR",
+     "km": 159,
+     "arr": "01:35",
+     "day": 2,
+     "dep": "01:38"
+    },
+    {
+     "code": "BKI",
+     "km": 220,
+     "arr": "02:38",
+     "day": 2,
+     "dep": "02:40"
+    },
+    {
+     "code": "DO",
+     "km": 257,
+     "arr": "03:06",
+     "day": 2,
+     "dep": "03:08"
+    },
+    {
+     "code": "GADJ",
+     "km": 300,
+     "arr": "03:52",
+     "day": 2,
+     "dep": "03:54"
+    },
+    {
+     "code": "JP",
+     "km": 309,
+     "arr": "04:10",
+     "day": 2,
+     "dep": "04:25"
+    },
+    {
+     "code": "FL",
+     "km": 363,
+     "arr": "05:12",
+     "day": 2,
+     "dep": "05:14"
+    },
+    {
+     "code": "KSG",
+     "km": 413,
+     "arr": "06:00",
+     "day": 2,
+     "dep": "06:02"
+    },
+    {
+     "code": "AII",
+     "km": 444,
+     "arr": "06:45",
+     "day": 2
+    }
+   ]
+  },
+  {
+   "number": "SIM-1408",
+   "name": "Night Kite Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "1A",
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AII",
+     "km": 0,
+     "day": 1,
+     "dep": "21:00"
+    },
+    {
+     "code": "KSG",
+     "km": 31,
+     "arr": "21:40",
+     "day": 1,
+     "dep": "21:42"
+    },
+    {
+     "code": "FL",
+     "km": 81,
+     "arr": "22:28",
+     "day": 1,
+     "dep": "22:30"
+    },
+    {
+     "code": "JP",
+     "km": 135,
+     "arr": "23:20",
+     "day": 1,
+     "dep": "23:35"
+    },
+    {
+     "code": "GADJ",
+     "km": 144,
+     "arr": "23:48",
+     "day": 1,
+     "dep": "23:50"
+    },
+    {
+     "code": "DO",
+     "km": 187,
+     "arr": "00:32",
+     "day": 2,
+     "dep": "00:34"
+    },
+    {
+     "code": "BKI",
+     "km": 224,
+     "arr": "01:00",
+     "day": 2,
+     "dep": "01:02"
+    },
+    {
+     "code": "AWR",
+     "km": 285,
+     "arr": "02:00",
+     "day": 2,
+     "dep": "02:03"
+    },
+    {
+     "code": "RE",
+     "km": 360,
+     "arr": "03:10",
+     "day": 2,
+     "dep": "03:12"
+    },
+    {
+     "code": "GGN",
+     "km": 411,
+     "arr": "04:02",
+     "day": 2,
+     "dep": "04:04"
+    },
+    {
+     "code": "DEC",
+     "km": 429,
+     "arr": "04:28",
+     "day": 2,
+     "dep": "04:30"
+    },
+    {
+     "code": "DEE",
+     "km": 439,
+     "arr": "04:45",
+     "day": 2,
+     "dep": "04:47"
+    },
+    {
+     "code": "DLI",
+     "km": 444,
+     "arr": "05:00",
+     "day": 2
+    }
+   ]
+  },
+  {
+   "number": "SIM-1509",
+   "name": "Saffron Valley Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "DEE",
+     "km": 0,
+     "day": 1,
+     "dep": "09:05"
+    },
+    {
+     "code": "DEC",
+     "km": 10,
+     "arr": "09:21",
+     "day": 1,
+     "dep": "09:23"
+    },
+    {
+     "code": "GGN",
+     "km": 28,
+     "arr": "09:48",
+     "day": 1,
+     "dep": "09:50"
+    },
+    {
+     "code": "RE",
+     "km": 79,
+     "arr": "10:40",
+     "day": 1,
+     "dep": "10:45"
+    },
+    {
+     "code": "NNL",
+     "km": 140,
+     "arr": "11:40",
+     "day": 1,
+     "dep": "11:42"
+    },
+    {
+     "code": "RGS",
+     "km": 242,
+     "arr": "13:20",
+     "day": 1,
+     "dep": "13:22"
+    },
+    {
+     "code": "JP",
+     "km": 299,
+     "arr": "14:30",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1510",
+   "name": "Saffron Valley Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "JP",
+     "km": 0,
+     "day": 1,
+     "dep": "15:30"
+    },
+    {
+     "code": "RGS",
+     "km": 57,
+     "arr": "16:38",
+     "day": 1,
+     "dep": "16:40"
+    },
+    {
+     "code": "NNL",
+     "km": 159,
+     "arr": "18:15",
+     "day": 1,
+     "dep": "18:17"
+    },
+    {
+     "code": "RE",
+     "km": 220,
+     "arr": "19:15",
+     "day": 1,
+     "dep": "19:20"
+    },
+    {
+     "code": "GGN",
+     "km": 271,
+     "arr": "20:08",
+     "day": 1,
+     "dep": "20:10"
+    },
+    {
+     "code": "DEC",
+     "km": 289,
+     "arr": "20:35",
+     "day": 1,
+     "dep": "20:37"
+    },
+    {
+     "code": "DEE",
+     "km": 299,
+     "arr": "20:55",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-2211",
+   "name": "Ridge Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NDLS",
+     "km": 0,
+     "day": 1,
+     "dep": "07:15"
+    },
+    {
+     "code": "DEC",
+     "km": 14,
+     "arr": "07:37",
+     "day": 1,
+     "dep": "07:39"
+    },
+    {
+     "code": "GGN",
+     "km": 32,
+     "arr": "08:03",
+     "day": 1,
+     "dep": "08:05"
+    },
+    {
+     "code": "RE",
+     "km": 83,
+     "arr": "08:52",
+     "day": 1,
+     "dep": "08:55"
+    },
+    {
+     "code": "AWR",
+     "km": 158,
+     "arr": "09:55",
+     "day": 1,
+     "dep": "09:58"
+    },
+    {
+     "code": "BKI",
+     "km": 219,
+     "arr": "10:55",
+     "day": 1,
+     "dep": "10:58"
+    },
+    {
+     "code": "BTE",
+     "km": 316,
+     "arr": "12:25",
+     "day": 1,
+     "dep": "12:28"
+    },
+    {
+     "code": "IDH",
+     "km": 368,
+     "arr": "13:15",
+     "day": 1,
+     "dep": "13:17"
+    },
+    {
+     "code": "AF",
+     "km": 372,
+     "arr": "13:30",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-2212",
+   "name": "Ridge Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AF",
+     "km": 0,
+     "day": 1,
+     "dep": "14:30"
+    },
+    {
+     "code": "IDH",
+     "km": 4,
+     "arr": "14:40",
+     "day": 1,
+     "dep": "14:42"
+    },
+    {
+     "code": "BTE",
+     "km": 56,
+     "arr": "15:30",
+     "day": 1,
+     "dep": "15:33"
+    },
+    {
+     "code": "BKI",
+     "km": 153,
+     "arr": "17:00",
+     "day": 1,
+     "dep": "17:03"
+    },
+    {
+     "code": "AWR",
+     "km": 214,
+     "arr": "18:00",
+     "day": 1,
+     "dep": "18:03"
+    },
+    {
+     "code": "RE",
+     "km": 289,
+     "arr": "19:05",
+     "day": 1,
+     "dep": "19:08"
+    },
+    {
+     "code": "GGN",
+     "km": 340,
+     "arr": "19:55",
+     "day": 1,
+     "dep": "19:57"
+    },
+    {
+     "code": "DEC",
+     "km": 358,
+     "arr": "20:20",
+     "day": 1,
+     "dep": "20:22"
+    },
+    {
+     "code": "NDLS",
+     "km": 372,
+     "arr": "20:45",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-2405",
+   "name": "Fort Link Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AF",
+     "km": 0,
+     "day": 1,
+     "dep": "08:45"
+    },
+    {
+     "code": "IDH",
+     "km": 4,
+     "arr": "08:55",
+     "day": 1,
+     "dep": "08:57"
+    },
+    {
+     "code": "BTE",
+     "km": 56,
+     "arr": "09:50",
+     "day": 1,
+     "dep": "09:53"
+    },
+    {
+     "code": "BKI",
+     "km": 153,
+     "arr": "11:35",
+     "day": 1,
+     "dep": "11:40"
+    },
+    {
+     "code": "DO",
+     "km": 190,
+     "arr": "12:06",
+     "day": 1,
+     "dep": "12:08"
+    },
+    {
+     "code": "GADJ",
+     "km": 233,
+     "arr": "12:50",
+     "day": 1,
+     "dep": "12:52"
+    },
+    {
+     "code": "JP",
+     "km": 242,
+     "arr": "13:05",
+     "day": 1,
+     "dep": "13:15"
+    },
+    {
+     "code": "FL",
+     "km": 296,
+     "arr": "14:00",
+     "day": 1,
+     "dep": "14:02"
+    },
+    {
+     "code": "KSG",
+     "km": 346,
+     "arr": "14:45",
+     "day": 1,
+     "dep": "14:47"
+    },
+    {
+     "code": "AII",
+     "km": 377,
+     "arr": "15:20",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-2406",
+   "name": "Fort Link Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AII",
+     "km": 0,
+     "day": 1,
+     "dep": "07:40"
+    },
+    {
+     "code": "KSG",
+     "km": 31,
+     "arr": "08:12",
+     "day": 1,
+     "dep": "08:14"
+    },
+    {
+     "code": "FL",
+     "km": 81,
+     "arr": "08:58",
+     "day": 1,
+     "dep": "09:00"
+    },
+    {
+     "code": "JP",
+     "km": 135,
+     "arr": "09:50",
+     "day": 1,
+     "dep": "10:00"
+    },
+    {
+     "code": "GADJ",
+     "km": 144,
+     "arr": "10:12",
+     "day": 1,
+     "dep": "10:14"
+    },
+    {
+     "code": "DO",
+     "km": 187,
+     "arr": "10:55",
+     "day": 1,
+     "dep": "10:57"
+    },
+    {
+     "code": "BKI",
+     "km": 224,
+     "arr": "11:25",
+     "day": 1,
+     "dep": "11:30"
+    },
+    {
+     "code": "BTE",
+     "km": 321,
+     "arr": "13:10",
+     "day": 1,
+     "dep": "13:13"
+    },
+    {
+     "code": "IDH",
+     "km": 373,
+     "arr": "14:00",
+     "day": 1,
+     "dep": "14:02"
+    },
+    {
+     "code": "AF",
+     "km": 377,
+     "arr": "14:15",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-2313",
+   "name": "Alwar Jaipur Link",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AWR",
+     "km": 0,
+     "day": 1,
+     "dep": "10:10"
+    },
+    {
+     "code": "BKI",
+     "km": 61,
+     "arr": "11:05",
+     "day": 1,
+     "dep": "11:07"
+    },
+    {
+     "code": "DO",
+     "km": 98,
+     "arr": "11:32",
+     "day": 1,
+     "dep": "11:34"
+    },
+    {
+     "code": "GADJ",
+     "km": 141,
+     "arr": "12:15",
+     "day": 1,
+     "dep": "12:17"
+    },
+    {
+     "code": "JP",
+     "km": 150,
+     "arr": "12:30",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-2314",
+   "name": "Alwar Jaipur Link",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "JP",
+     "km": 0,
+     "day": 1,
+     "dep": "16:10"
+    },
+    {
+     "code": "GADJ",
+     "km": 9,
+     "arr": "16:22",
+     "day": 1,
+     "dep": "16:24"
+    },
+    {
+     "code": "DO",
+     "km": 52,
+     "arr": "17:05",
+     "day": 1,
+     "dep": "17:07"
+    },
+    {
+     "code": "BKI",
+     "km": 89,
+     "arr": "17:35",
+     "day": 1,
+     "dep": "17:37"
+    },
+    {
+     "code": "AWR",
+     "km": 150,
+     "arr": "18:30",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-3301",
+   "name": "Lotus Link",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "SL",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "JP",
+     "km": 0,
+     "day": 1,
+     "dep": "19:15"
+    },
+    {
+     "code": "FL",
+     "km": 54,
+     "arr": "20:02",
+     "day": 1,
+     "dep": "20:04"
+    },
+    {
+     "code": "KSG",
+     "km": 104,
+     "arr": "20:50",
+     "day": 1,
+     "dep": "20:52"
+    },
+    {
+     "code": "AII",
+     "km": 135,
+     "arr": "21:30",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-3302",
+   "name": "Lotus Link",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "SL",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AII",
+     "km": 0,
+     "day": 1,
+     "dep": "06:00"
+    },
+    {
+     "code": "KSG",
+     "km": 31,
+     "arr": "06:38",
+     "day": 1,
+     "dep": "06:40"
+    },
+    {
+     "code": "FL",
+     "km": 81,
+     "arr": "07:25",
+     "day": 1,
+     "dep": "07:27"
+    },
+    {
+     "code": "JP",
+     "km": 135,
+     "arr": "08:15",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-6401",
+   "name": "Delhi Rewari MEMU",
+   "category": "MEMU",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NDLS",
+     "km": 0,
+     "day": 1,
+     "dep": "05:10"
+    },
+    {
+     "code": "DEC",
+     "km": 14,
+     "arr": "05:32",
+     "day": 1,
+     "dep": "05:33"
+    },
+    {
+     "code": "GGN",
+     "km": 32,
+     "arr": "05:57",
+     "day": 1,
+     "dep": "05:59"
+    },
+    {
+     "code": "RE",
+     "km": 83,
+     "arr": "06:50",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-6403",
+   "name": "Delhi Rewari MEMU",
+   "category": "MEMU",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NDLS",
+     "km": 0,
+     "day": 1,
+     "dep": "11:50"
+    },
+    {
+     "code": "DEC",
+     "km": 14,
+     "arr": "12:12",
+     "day": 1,
+     "dep": "12:13"
+    },
+    {
+     "code": "GGN",
+     "km": 32,
+     "arr": "12:38",
+     "day": 1,
+     "dep": "12:40"
+    },
+    {
+     "code": "RE",
+     "km": 83,
+     "arr": "13:35",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-6405",
+   "name": "Delhi Rewari MEMU",
+   "category": "MEMU",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NDLS",
+     "km": 0,
+     "day": 1,
+     "dep": "17:20"
+    },
+    {
+     "code": "DEC",
+     "km": 14,
+     "arr": "17:42",
+     "day": 1,
+     "dep": "17:43"
+    },
+    {
+     "code": "GGN",
+     "km": 32,
+     "arr": "18:07",
+     "day": 1,
+     "dep": "18:09"
+    },
+    {
+     "code": "RE",
+     "km": 83,
+     "arr": "19:00",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-6402",
+   "name": "Rewari Delhi MEMU",
+   "category": "MEMU",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "RE",
+     "km": 0,
+     "day": 1,
+     "dep": "07:30"
+    },
+    {
+     "code": "GGN",
+     "km": 51,
+     "arr": "08:22",
+     "day": 1,
+     "dep": "08:24"
+    },
+    {
+     "code": "DEC",
+     "km": 69,
+     "arr": "08:48",
+     "day": 1,
+     "dep": "08:49"
+    },
+    {
+     "code": "NDLS",
+     "km": 83,
+     "arr": "09:15",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-6404",
+   "name": "Rewari Delhi MEMU",
+   "category": "MEMU",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "RE",
+     "km": 0,
+     "day": 1,
+     "dep": "15:30"
+    },
+    {
+     "code": "GGN",
+     "km": 51,
+     "arr": "16:22",
+     "day": 1,
+     "dep": "16:24"
+    },
+    {
+     "code": "DEC",
+     "km": 69,
+     "arr": "16:48",
+     "day": 1,
+     "dep": "16:49"
+    },
+    {
+     "code": "NDLS",
+     "km": 83,
+     "arr": "17:15",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1611",
+   "name": "Firefly Night Express",
+   "category": "Superfast",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": "daily",
+   "classes": [
+    "1A",
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NZM",
+     "km": 0,
+     "day": 1,
+     "dep": "21:45"
+    },
+    {
+     "code": "FDB",
+     "km": 21,
+     "arr": "22:08",
+     "day": 1,
+     "dep": "22:10"
+    },
+    {
+     "code": "PWL",
+     "km": 57,
+     "arr": "22:38",
+     "day": 1,
+     "dep": "22:40"
+    },
+    {
+     "code": "MTJ",
+     "km": 141,
+     "arr": "23:50",
+     "day": 1,
+     "dep": "23:55"
+    },
+    {
+     "code": "BTE",
+     "km": 175,
+     "arr": "00:30",
+     "day": 2,
+     "dep": "00:32"
+    },
+    {
+     "code": "BXN",
+     "km": 223,
+     "arr": "01:10",
+     "day": 2,
+     "dep": "01:12"
+    },
+    {
+     "code": "GGC",
+     "km": 290,
+     "arr": "02:05",
+     "day": 2,
+     "dep": "02:07"
+    },
+    {
+     "code": "SWM",
+     "km": 356,
+     "arr": "03:00",
+     "day": 2,
+     "dep": "03:05"
+    },
+    {
+     "code": "KOTA",
+     "km": 465,
+     "arr": "04:50",
+     "day": 2
+    }
+   ]
+  },
+  {
+   "number": "SIM-1612",
+   "name": "Firefly Night Express",
+   "category": "Superfast",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": "daily",
+   "classes": [
+    "1A",
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "KOTA",
+     "km": 0,
+     "day": 1,
+     "dep": "22:15"
+    },
+    {
+     "code": "SWM",
+     "km": 109,
+     "arr": "23:55",
+     "day": 1,
+     "dep": "00:00"
+    },
+    {
+     "code": "GGC",
+     "km": 175,
+     "arr": "00:50",
+     "day": 2,
+     "dep": "00:52"
+    },
+    {
+     "code": "BXN",
+     "km": 242,
+     "arr": "01:45",
+     "day": 2,
+     "dep": "01:47"
+    },
+    {
+     "code": "BTE",
+     "km": 290,
+     "arr": "02:25",
+     "day": 2,
+     "dep": "02:27"
+    },
+    {
+     "code": "MTJ",
+     "km": 324,
+     "arr": "03:05",
+     "day": 2,
+     "dep": "03:10"
+    },
+    {
+     "code": "PWL",
+     "km": 408,
+     "arr": "04:15",
+     "day": 2,
+     "dep": "04:17"
+    },
+    {
+     "code": "FDB",
+     "km": 444,
+     "arr": "04:48",
+     "day": 2,
+     "dep": "04:50"
+    },
+    {
+     "code": "NZM",
+     "km": 465,
+     "arr": "05:20",
+     "day": 2
+    }
+   ]
+  },
+  {
+   "number": "SIM-1613",
+   "name": "Starling Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NZM",
+     "km": 0,
+     "day": 1,
+     "dep": "06:10"
+    },
+    {
+     "code": "FDB",
+     "km": 21,
+     "arr": "06:32",
+     "day": 1,
+     "dep": "06:34"
+    },
+    {
+     "code": "PWL",
+     "km": 57,
+     "arr": "07:05",
+     "day": 1,
+     "dep": "07:07"
+    },
+    {
+     "code": "MTJ",
+     "km": 141,
+     "arr": "08:15",
+     "day": 1,
+     "dep": "08:20"
+    },
+    {
+     "code": "BTE",
+     "km": 175,
+     "arr": "08:55",
+     "day": 1,
+     "dep": "08:57"
+    },
+    {
+     "code": "BXN",
+     "km": 223,
+     "arr": "09:40",
+     "day": 1,
+     "dep": "09:42"
+    },
+    {
+     "code": "GGC",
+     "km": 290,
+     "arr": "10:40",
+     "day": 1,
+     "dep": "10:42"
+    },
+    {
+     "code": "SWM",
+     "km": 356,
+     "arr": "11:40",
+     "day": 1,
+     "dep": "11:45"
+    },
+    {
+     "code": "KOTA",
+     "km": 465,
+     "arr": "13:30",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1614",
+   "name": "Starling Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "2A",
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "KOTA",
+     "km": 0,
+     "day": 1,
+     "dep": "14:20"
+    },
+    {
+     "code": "SWM",
+     "km": 109,
+     "arr": "16:05",
+     "day": 1,
+     "dep": "16:10"
+    },
+    {
+     "code": "GGC",
+     "km": 175,
+     "arr": "17:05",
+     "day": 1,
+     "dep": "17:07"
+    },
+    {
+     "code": "BXN",
+     "km": 242,
+     "arr": "18:05",
+     "day": 1,
+     "dep": "18:07"
+    },
+    {
+     "code": "BTE",
+     "km": 290,
+     "arr": "18:50",
+     "day": 1,
+     "dep": "18:52"
+    },
+    {
+     "code": "MTJ",
+     "km": 324,
+     "arr": "19:30",
+     "day": 1,
+     "dep": "19:35"
+    },
+    {
+     "code": "PWL",
+     "km": 408,
+     "arr": "20:40",
+     "day": 1,
+     "dep": "20:42"
+    },
+    {
+     "code": "FDB",
+     "km": 444,
+     "arr": "21:12",
+     "day": 1,
+     "dep": "21:14"
+    },
+    {
+     "code": "NZM",
+     "km": 465,
+     "arr": "21:40",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1715",
+   "name": "Bulbul Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "JP",
+     "km": 0,
+     "day": 1,
+     "dep": "02:40"
+    },
+    {
+     "code": "DPA",
+     "km": 7,
+     "arr": "02:52",
+     "day": 1,
+     "dep": "02:54"
+    },
+    {
+     "code": "SWM",
+     "km": 131,
+     "arr": "05:00",
+     "day": 1,
+     "dep": "05:10"
+    },
+    {
+     "code": "KOTA",
+     "km": 240,
+     "arr": "06:50",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1716",
+   "name": "Bulbul Express",
+   "category": "Mail/Express",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "3A",
+    "SL"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "KOTA",
+     "km": 0,
+     "day": 1,
+     "dep": "18:30"
+    },
+    {
+     "code": "SWM",
+     "km": 109,
+     "arr": "20:15",
+     "day": 1,
+     "dep": "20:20"
+    },
+    {
+     "code": "DPA",
+     "km": 233,
+     "arr": "22:25",
+     "day": 1,
+     "dep": "22:27"
+    },
+    {
+     "code": "JP",
+     "km": 240,
+     "arr": "22:40",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1817",
+   "name": "Tiger Trail Intercity",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "SWM",
+     "km": 0,
+     "day": 1,
+     "dep": "06:00"
+    },
+    {
+     "code": "DPA",
+     "km": 124,
+     "arr": "08:05",
+     "day": 1,
+     "dep": "08:07"
+    },
+    {
+     "code": "JP",
+     "km": 131,
+     "arr": "08:25",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1818",
+   "name": "Tiger Trail Intercity",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": false,
+   "runs_on": "daily",
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "JP",
+     "km": 0,
+     "day": 1,
+     "dep": "17:30"
+    },
+    {
+     "code": "DPA",
+     "km": 7,
+     "arr": "17:42",
+     "day": 1,
+     "dep": "17:44"
+    },
+    {
+     "code": "SWM",
+     "km": 131,
+     "arr": "19:50",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1901",
+   "name": "Yamuna Link",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": "daily",
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "NZM",
+     "km": 0,
+     "day": 1,
+     "dep": "07:00"
+    },
+    {
+     "code": "FDB",
+     "km": 21,
+     "arr": "07:20",
+     "day": 1,
+     "dep": "07:22"
+    },
+    {
+     "code": "PWL",
+     "km": 57,
+     "arr": "07:48",
+     "day": 1,
+     "dep": "07:50"
+    },
+    {
+     "code": "MTJ",
+     "km": 141,
+     "arr": "08:50",
+     "day": 1,
+     "dep": "08:53"
+    },
+    {
+     "code": "AGC",
+     "km": 195,
+     "arr": "09:45",
+     "day": 1
+    }
+   ]
+  },
+  {
+   "number": "SIM-1902",
+   "name": "Yamuna Link",
+   "category": "Intercity",
+   "simulated": true,
+   "superfast": true,
+   "runs_on": "daily",
+   "classes": [
+    "CC",
+    "2S"
+   ],
+   "unreserved": true,
+   "source": "Synthetic demo timetable (build_simulated_trains.py)",
+   "stops": [
+    {
+     "code": "AGC",
+     "km": 0,
+     "day": 1,
+     "dep": "18:30"
+    },
+    {
+     "code": "MTJ",
+     "km": 54,
+     "arr": "19:22",
+     "day": 1,
+     "dep": "19:25"
+    },
+    {
+     "code": "PWL",
+     "km": 138,
+     "arr": "20:25",
+     "day": 1,
+     "dep": "20:27"
+    },
+    {
+     "code": "FDB",
+     "km": 174,
+     "arr": "20:55",
+     "day": 1,
+     "dep": "20:57"
+    },
+    {
+     "code": "NZM",
+     "km": 195,
+     "arr": "21:20",
+     "day": 1
+    }
+   ]
+  }
+ ]
+}

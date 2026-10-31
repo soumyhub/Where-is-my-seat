@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "note": "Rough door-to-door estimates for typical traffic. Not a timetable, not a fare. Used for same-city station changes and short feeder legs.",
+    "last_updated": "2026-10-30"
+  },
+  "pairs": [
+    {"a": "NDLS", "b": "DLI", "minutes": 25, "cost": 30, "mode": "Metro / auto"},
+    {"a": "NDLS", "b": "NZM", "minutes": 35, "cost": 40, "mode": "Metro / auto"},
+    {"a": "NDLS", "b": "DEE", "minutes": 30, "cost": 40, "mode": "Metro / auto"},
+    {"a": "NDLS", "b": "DEC", "minutes": 40, "cost": 60, "mode": "Metro / cab"},
+    {"a": "NDLS", "b": "ANVT", "minutes": 45, "cost": 50, "mode": "Metro / auto"},
+    {"a": "DLI", "b": "DEE", "minutes": 20, "cost": 30, "mode": "Auto / cab"},
+    {"a": "DLI", "b": "NZM", "minutes": 40, "cost": 40, "mode": "Metro / auto"},
+    {"a": "DEE", "b": "DEC", "minutes": 30, "cost": 50, "mode": "Auto / cab"},
+    {"a": "NZM", "b": "DEC", "minutes": 45, "cost": 60, "mode": "Metro / cab"},
+    {"a": "NDLS", "b": "GGN", "minutes": 70, "cost": 90, "mode": "Metro + auto"},
+    {"a": "NZM", "b": "FDB", "minutes": 45, "cost": 50, "mode": "Metro / cab"},
+    {"a": "JP", "b": "GADJ", "minutes": 20, "cost": 80, "mode": "Auto / cab"},
+    {"a": "JP", "b": "DPA", "minutes": 25, "cost": 90, "mode": "Auto / cab"},
+    {"a": "GADJ", "b": "DPA", "minutes": 20, "cost": 70, "mode": "Auto / cab"},
+    {"a": "AGC", "b": "AF", "minutes": 25, "cost": 80, "mode": "Auto / cab"},
+    {"a": "AGC", "b": "IDH", "minutes": 15, "cost": 50, "mode": "Auto"},
+    {"a": "AF", "b": "IDH", "minutes": 20, "cost": 60, "mode": "Auto"},
+    {"a": "KSG", "b": "AII", "minutes": 55, "cost": 60, "mode": "Bus or cab"}
+  ]
+}

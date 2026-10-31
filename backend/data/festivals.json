@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "note": "Approximate festival / holiday dates, used only for 'peak travel' hints and to make simulated waitlists longer. Verify with an official calendar before relying on a date.",
+    "last_updated": "2026-10-30"
+  },
+  "periods": [
+    {"name": "Diwali", "date": "2026-11-08", "before": 6, "after": 5, "level": "high"},
+    {"name": "Chhath Puja", "date": "2026-11-15", "before": 4, "after": 2, "level": "high"},
+    {"name": "Christmas & New Year", "date": "2026-12-25", "before": 3, "after": 9, "level": "medium"},
+    {"name": "Republic Day weekend", "date": "2027-01-26", "before": 2, "after": 1, "level": "medium"},
+    {"name": "Holi", "date": "2027-03-22", "before": 4, "after": 3, "level": "high"},
+    {"name": "Summer vacation", "date": "2027-05-25", "before": 15, "after": 30, "level": "medium"}
+  ]
+}
