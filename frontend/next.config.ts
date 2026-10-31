@@ -15,6 +15,8 @@ const nextConfig: NextConfig = {
     },
   },
   async rewrites() {
+    // On Vercel, vercel.json sends /api/* to the backend service before it reaches Next.js.
+    if (process.env.VERCEL) return [];
     return [{ source: "/api/:path*", destination: `${API_URL}/:path*` }];
   },
 };

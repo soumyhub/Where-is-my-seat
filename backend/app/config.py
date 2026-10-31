@@ -72,5 +72,6 @@ def load_settings(env_file: Path | None = BACKEND_DIR / ".env") -> Settings:
         railradar_url=os.getenv("WIMS_RAILRADAR_URL") or "https://api.railradar.in/v1",
         live_monthly_limit=_int("WIMS_LIVE_MONTHLY_LIMIT", 90),
         live_cache_minutes=_int("WIMS_LIVE_CACHE_MINUTES", 30),
-        state_dir=Path(os.getenv("WIMS_STATE_DIR", str(BACKEND_DIR / ".state"))),
+        # On Vercel only /tmp is writable (and it is wiped between cold starts).
+        state_dir=Path(os.getenv("WIMS_STATE_DIR") or ("/tmp/wims-state" if os.getenv("VERCEL") else str(BACKEND_DIR / ".state"))),
     )

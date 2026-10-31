@@ -384,4 +384,19 @@ def create_app(
     return app
 
 
-app = create_app()
+class _StripApiPrefix:
+    """Accept paths under /api as well: on Vercel the frontend's /api/* is routed here unchanged."""
+
+    def __init__(self, inner: FastAPI) -> None:
+        self.inner = inner
+
+    async def __call__(self, scope, receive, send):  # noqa: ANN001
+        if scope["type"] in ("http", "websocket"):
+            path = scope.get("path", "")
+            if path == "/api" or path.startswith("/api/"):
+                scope = {**scope, "path": path[4:] or "/", "raw_path": None}
+        await self.inner(scope, receive, send)
+
+
+api = create_app()
+app = _StripApiPrefix(api)
